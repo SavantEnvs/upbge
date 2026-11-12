@@ -1,0 +1,10 @@
+project: savantenvs/upbge
+target: fuzz_expr_pylike
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_expr_pylike/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_expr_pylike
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_expr_pylike/fuzz_expr_pylike.dict
+    timeout: 10

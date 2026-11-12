@@ -1,0 +1,12 @@
+ply
+format ascii 1.0
+element vertex 3
+property float x
+property float y
+property float z
+element foo 2147483647
+property int bar
+end_header
+0 0 0
+1 0 0
+1 1 0

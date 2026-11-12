@@ -1,0 +1,18 @@
+ply
+format ascii 1.0
+comment Element without properties with empty rows, which must be skipped.
+element vertex 4
+property float x
+property float y
+property float z
+element foo 2
+element face 1
+property list uchar int vertex_indices
+end_header
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+
+
+3 0 1 3

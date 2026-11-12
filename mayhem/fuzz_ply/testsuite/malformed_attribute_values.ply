@@ -1,0 +1,23 @@
+ply
+format ascii 1.0
+element vertex 3
+property float x
+property float y
+property float z
+property float nx
+property float ny
+property float nz
+property float .select_vert
+property float
+property float valid
+element face 1
+property list uchar int vertex_indices
+element edge 1
+property float vertex1
+property float vertex2
+end_header
+0 0 0 0 0 1 1 2 3
+1 0 0 0 0 1 1 2 3
+1 1 0 0 0 1 1 2 3
+3 0 1 2
+nan 1e30

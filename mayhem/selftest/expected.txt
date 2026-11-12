@@ -1,0 +1,41 @@
+PASS ply.cube_ascii.header
+PASS ply.cube_ascii.counts
+PASS ply.cube_ascii.vertex0
+PASS ply.cube_ascii.normal0
+PASS ply.cube_ascii.uv1
+PASS ply.cube_ascii.color0
+PASS ply.wireframe.header
+PASS ply.wireframe.counts
+PASS ply.wireframe.vertex7
+PASS ply.wireframe.edge0
+PASS ply.not_a_ply_rejected
+PASS expr.linear
+PASS expr.minmax
+PASS expr.ternary
+PASS expr.pow_sqrt
+PASS expr.chain_compare
+PASS expr.const_fold
+PASS expr.is_constant
+PASS expr.param_usage
+PASS expr.err_div_zero
+PASS expr.err_math
+PASS expr.parse_fail
+PASS mayhem/fuzz_sdna/testsuite/sdna_64bit_mesh.bin
+sdna structs=5 listbase_size=16 id_size=88
+PASS sdna.structs_num
+PASS sdna.listbase_size
+PASS sdna.id_size
+PASS sdna.missing_struct
+PASS mayhem/fuzz_sdna/testsuite/sdna_32bit_mesh.bin
+sdna structs=5 listbase_size=8 id_size=80
+PASS sdna.structs_num
+PASS sdna.listbase_size
+PASS sdna.id_size
+PASS sdna.missing_struct
+PASS mayhem/fuzz_sdna/testsuite/sdna_64bit_min.bin
+sdna structs=4 listbase_size=16 id_size=88
+PASS sdna.structs_num
+PASS sdna.listbase_size
+PASS sdna.id_size
+PASS sdna.missing_struct
+PASS sdna.truncated_rejected

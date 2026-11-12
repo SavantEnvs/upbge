@@ -1,0 +1,10 @@
+project: savantenvs/upbge
+target: fuzz_sdna
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_sdna/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_sdna
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_sdna/fuzz_sdna.dict
+    timeout: 10
